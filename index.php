@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: brian
- * Date: 24.12.2018
- * Time: 17:03
- */
+require_once __DIR__.'/vendor/autoload.php';
+use Transport\TransportMailer;
+use Logger\LoggerClass;
+//$sender = new TransportMailer();
+//$sender->send("Важное сообщение","Просто сообщение","example");
+$logger = new LoggerClass();
+$logger->log();
