@@ -1,0 +1,2 @@
+[2018-12-28 14:46:04] log_channel.ERROR: Uncaught Exception Exception: "sa" at C:\OSPanel\domains\Logger\index.php line 8 {"exception":"[object] (Exception(code: 0): sa at C:\\OSPanel\\domains\\Logger\\index.php:8)"} []
+[2018-12-28 14:46:04] log_channel.ERROR: Uncaught Exception Exception: "sa" at C:\OSPanel\domains\Logger\index.php line 8 {"exception":"[object] (Exception(code: 0): sa at C:\\OSPanel\\domains\\Logger\\index.php:8)"} []

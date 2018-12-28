@@ -1,8 +1,9 @@
 <?php
 require_once __DIR__.'/vendor/autoload.php';
-use Transport\TransportMailer;
 use Logger\LoggerClass;
-//$sender = new TransportMailer();
-//$sender->send("Важное сообщение","Просто сообщение","example");
+error_reporting(E_ALL & ~E_NOTICE);
 $logger = new LoggerClass();
-$logger->log();
+$logger->setLogFile('name.log');
+$logger->registerExceptionHandler();
+throw new Exception('sa');
+
